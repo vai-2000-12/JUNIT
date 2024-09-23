@@ -33,7 +33,7 @@ public class FTest {
         ft.waitFor(500);
      }
 
-//This Failed Because the Timeout Should be Before 1000 milliseconds Else it will throw TestTimeoutException
+//This Failed Because the Timeout Should be Before 1000 milliseconds Else it will throw TestTimedOutException
      @Ignore
      @Test(timeout = 1000)
      public void testWithTimeoutHavingMoreWaitThenTimeoutAnnotation()throws InterruptedException{
