@@ -1,4 +1,5 @@
-//Learned How to use the Method i.e assertTrue()
+//Learned How to use the Method i.e assertTrue(boolean condition) , assertTrue(StringMessage, boolean condition) used 👈 in this Example
+
 package src;
 import static org.junit.Assert.assertTrue;
 
