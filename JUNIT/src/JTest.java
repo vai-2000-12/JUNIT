@@ -1,3 +1,4 @@
+//Learned How to use the Method i.e assertTrue()
 package src;
 import static org.junit.Assert.assertTrue;
 
