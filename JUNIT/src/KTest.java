@@ -1,5 +1,5 @@
 package src;
-import static org.junit.Assert.assertFalse;
+// import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 import org.junit.BeforeClass;
@@ -19,7 +19,7 @@ public class KTest {
         assertTrue(kk.isOdd(3));
         // assertFalse(kk.isOdd(3));
         /*
-          In this assertFalse Since the Number is Odd and  
+          In this assertFalse Since the Number is Odd sand  
           thats the reason its showing AssertionError
           🔽
          *java.lang.AssertionError
