@@ -1,3 +1,7 @@
+/*
+ Method Used ↪️ : static void	fail(String message)
+        Work 😊 :   Fails a test with the given message.
+*/
 package src;
 import static org.junit.Assert.fail;
 import org.junit.BeforeClass;
