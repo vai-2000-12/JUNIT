@@ -1,6 +1,10 @@
 /*
- Method Used ↪️ : static void	fail(String message)
+ Method Used ↪️ : static void :	fail(String message)
         Work 😊 :   Fails a test with the given message.
+
+    Also Tried 🔽 :
+       static void : fail()
+          Fails a test with no message.
 */
 package src;
 import static org.junit.Assert.fail;
@@ -19,6 +23,7 @@ public class NTest {
         N n = new N();
         if(!n.isEven(2)){
             fail("Expected 2 to be Even , it was Not");
+            // fail();  No parameterized Version If the Value is Odd then Only Asssertion Error Will Come Since we are not Specifying the Number
         }
     }
 
