@@ -35,7 +35,7 @@ public class OTest {
 
     @AfterClass
     public static void printStatement(){
-        System.out.println(" Testing is Finished");
+        System.out.println("Testing is Finished");
     }
 }
 /*
