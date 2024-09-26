@@ -31,8 +31,9 @@ public class RTest {
 
 /*     🔴🔴🔴
       Try this One ⚠️ : assertThat(actualStr , startsWith("Jeb"));
-      The Assertion Error will come because the String starts With jab as Suffix
+      The Assertion Error will come because the String Doesn't starts With jab as Suffix
          ⬇️👇⏬
+         
  java.lang.AssertionError: 
 Expected: a string starting with "Jeb"
      but: was "Jabalpur"
@@ -66,5 +67,4 @@ Expected: a string starting with "Jeb"
         at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:453)
         at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
 
-%TRACEE 
 */
