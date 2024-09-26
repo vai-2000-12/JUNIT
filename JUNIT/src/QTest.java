@@ -9,15 +9,17 @@ public class QTest {
   @BeforeClass
   public static void print(){
       System.out.println("Test is Started");
-  }
-
-
-  @Test
-  public void CheckString(){
-    Q q = new Q();
-     
-     String actualString = q.isSubstringPresent();
-    assertThat(actualString , containsString("Kar"));
+    }
+    
+    
+    @Test
+    public void CheckString(){
+        Q q = new Q();
+        
+        String actualString = q.isSubstringPresent();
+        assertThat(actualString , containsString("Kar"));
+        System.out.println("The String Contains The Substring i.e 'Kar' ");
+    
   }
 
   @AfterClass
