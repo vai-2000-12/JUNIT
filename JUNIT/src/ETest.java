@@ -16,6 +16,7 @@ public class ETest {
        e = new E();
     } 
 
+    //@BeforeClass is the annotation Which Basically Helps when You want to show the Message created By your own in Debug Console
     @BeforeClass
     public static  void printStatement(){ 
         System.out.println("The Test Case Is Running!!.. Wait");
@@ -27,6 +28,7 @@ public class ETest {
         assertEquals(1, res);
     }
 
+    //@Ignore Annotation Is used When You want That the test Should be Ignored at the time of run...
     @Ignore
     @AfterClass
     public static void print(){

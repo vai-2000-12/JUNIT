@@ -23,6 +23,7 @@ public class OTest {
          System.out.println("The Test Will Pass Since None Of the Value of the String is Null");
     }
 
+     //In this Test The str2 is Null so the Test Will be Ignored
     @Test
     public void CheckIfTheArguNotNull1(){
         String str1 = "Hello";
