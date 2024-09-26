@@ -18,9 +18,7 @@ public class RTest {
         R r = new R();
        String actualStr = r.IfMatches();
        assertThat(actualStr , startsWith("Jab"));
-
        System.out.println("The Provided String  startWith the suffix jab");
-       
     }
 
     @AfterClass
@@ -66,5 +64,4 @@ Expected: a string starting with "Jeb"
         at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:758)
         at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:453)
         at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:211)
-
 */
