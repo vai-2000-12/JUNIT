@@ -10,7 +10,10 @@ import org.junit.Test;
 public class ETest {
      
     E e;
-
+    /*
+     *Before indicates that they are annotations, which provide metadata to the 
+     Java compiler and runtime to identify methods that should be treated as test cases or setup methods.
+    */
     @Before
     public void setUp(){
        e = new E();
